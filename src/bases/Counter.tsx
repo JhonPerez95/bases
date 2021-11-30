@@ -3,10 +3,11 @@ import PropTypes from 'prop-types'
 import { useState } from 'react'
 
 interface Props {
-    initialValue?: number
+    initialState?: number
 }
-export const Counter = ({ initialValue }: Props) => {
-    const [counter, setCounter] = useState(initialValue)
+
+export const Counter = ({ initialState }: Props) => {
+    const [counter, setCounter] = useState(initialState)
 
     const handleClick = () => {
         setCounter((pre) => (pre ? pre + 1 : 1))
