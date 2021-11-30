@@ -6,7 +6,7 @@ function App() {
         <>
             <h1>React</h1>
             <hr />
-            <Counter initialValue={15} />
+            <Counter />
         </>
     )
 }
