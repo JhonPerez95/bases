@@ -32,7 +32,7 @@ export const useCounter = ({ maxCount = 1, initialState = 5 }) => {
     }, [counter])
 
     return {
-        counter,
+        counter,  
         handleClick,
         elementToAnimate,
     }
